@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3935EB541FA74ABE0009B52D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3935EB531FA74ABE0009B52D /* AppDelegate.m */; };
+		3935EB571FA74ABE0009B52D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3935EB561FA74ABE0009B52D /* ViewController.m */; };
+		3935EB5A1FA74ABE0009B52D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3935EB581FA74ABE0009B52D /* Main.storyboard */; };
+		3935EB5C1FA74ABE0009B52D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3935EB5B1FA74ABE0009B52D /* Assets.xcassets */; };
+		3935EB5F1FA74ABE0009B52D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3935EB5D1FA74ABE0009B52D /* LaunchScreen.storyboard */; };
+		3935EB621FA74ABE0009B52D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3935EB611FA74ABE0009B52D /* main.m */; };
+		3935EB6C1FA74ABE0009B52D /* ZHWaveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3935EB6B1FA74ABE0009B52D /* ZHWaveTests.m */; };
+		3935EB771FA74ABF0009B52D /* ZHWaveUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3935EB761FA74ABF0009B52D /* ZHWaveUITests.m */; };
+		3935EB8A1FA74B2E0009B52D /* ZHWave.m in Sources */ = {isa = PBXBuildFile; fileRef = 3935EB891FA74B2E0009B52D /* ZHWave.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3935EB681FA74ABE0009B52D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3935EB471FA74ABE0009B52D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3935EB4E1FA74ABE0009B52D;
+			remoteInfo = ZHWave;
+		};
+		3935EB731FA74ABF0009B52D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3935EB471FA74ABE0009B52D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3935EB4E1FA74ABE0009B52D;
+			remoteInfo = ZHWave;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3935EB4F1FA74ABE0009B52D /* ZHWave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHWave.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3935EB521FA74ABE0009B52D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3935EB531FA74ABE0009B52D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3935EB551FA74ABE0009B52D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3935EB561FA74ABE0009B52D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3935EB591FA74ABE0009B52D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3935EB5B1FA74ABE0009B52D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3935EB5E1FA74ABE0009B52D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3935EB601FA74ABE0009B52D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3935EB611FA74ABE0009B52D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3935EB671FA74ABE0009B52D /* ZHWaveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHWaveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3935EB6B1FA74ABE0009B52D /* ZHWaveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHWaveTests.m; sourceTree = "<group>"; };
+		3935EB6D1FA74ABE0009B52D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3935EB721FA74ABF0009B52D /* ZHWaveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHWaveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3935EB761FA74ABF0009B52D /* ZHWaveUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHWaveUITests.m; sourceTree = "<group>"; };
+		3935EB781FA74ABF0009B52D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3935EB881FA74B2E0009B52D /* ZHWave.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHWave.h; sourceTree = "<group>"; };
+		3935EB891FA74B2E0009B52D /* ZHWave.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHWave.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3935EB4C1FA74ABE0009B52D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3935EB641FA74ABE0009B52D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3935EB6F1FA74ABE0009B52D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3935EB461FA74ABE0009B52D = {
+			isa = PBXGroup;
+			children = (
+				3935EB511FA74ABE0009B52D /* ZHWave */,
+				3935EB6A1FA74ABE0009B52D /* ZHWaveTests */,
+				3935EB751FA74ABF0009B52D /* ZHWaveUITests */,
+				3935EB501FA74ABE0009B52D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3935EB501FA74ABE0009B52D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3935EB4F1FA74ABE0009B52D /* ZHWave.app */,
+				3935EB671FA74ABE0009B52D /* ZHWaveTests.xctest */,
+				3935EB721FA74ABF0009B52D /* ZHWaveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3935EB511FA74ABE0009B52D /* ZHWave */ = {
+			isa = PBXGroup;
+			children = (
+				3935EB841FA74B070009B52D /* Wave */,
+				3935EB521FA74ABE0009B52D /* AppDelegate.h */,
+				3935EB531FA74ABE0009B52D /* AppDelegate.m */,
+				3935EB551FA74ABE0009B52D /* ViewController.h */,
+				3935EB561FA74ABE0009B52D /* ViewController.m */,
+				3935EB581FA74ABE0009B52D /* Main.storyboard */,
+				3935EB5B1FA74ABE0009B52D /* Assets.xcassets */,
+				3935EB5D1FA74ABE0009B52D /* LaunchScreen.storyboard */,
+				3935EB601FA74ABE0009B52D /* Info.plist */,
+				3935EB611FA74ABE0009B52D /* main.m */,
+			);
+			path = ZHWave;
+			sourceTree = "<group>";
+		};
+		3935EB6A1FA74ABE0009B52D /* ZHWaveTests */ = {
+			isa = PBXGroup;
+			children = (
+				3935EB6B1FA74ABE0009B52D /* ZHWaveTests.m */,
+				3935EB6D1FA74ABE0009B52D /* Info.plist */,
+			);
+			path = ZHWaveTests;
+			sourceTree = "<group>";
+		};
+		3935EB751FA74ABF0009B52D /* ZHWaveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3935EB761FA74ABF0009B52D /* ZHWaveUITests.m */,
+				3935EB781FA74ABF0009B52D /* Info.plist */,
+			);
+			path = ZHWaveUITests;
+			sourceTree = "<group>";
+		};
+		3935EB841FA74B070009B52D /* Wave */ = {
+			isa = PBXGroup;
+			children = (
+				3935EB881FA74B2E0009B52D /* ZHWave.h */,
+				3935EB891FA74B2E0009B52D /* ZHWave.m */,
+			);
+			path = Wave;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3935EB4E1FA74ABE0009B52D /* ZHWave */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3935EB7B1FA74ABF0009B52D /* Build configuration list for PBXNativeTarget "ZHWave" */;
+			buildPhases = (
+				3935EB4B1FA74ABE0009B52D /* Sources */,
+				3935EB4C1FA74ABE0009B52D /* Frameworks */,
+				3935EB4D1FA74ABE0009B52D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZHWave;
+			productName = ZHWave;
+			productReference = 3935EB4F1FA74ABE0009B52D /* ZHWave.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3935EB661FA74ABE0009B52D /* ZHWaveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3935EB7E1FA74ABF0009B52D /* Build configuration list for PBXNativeTarget "ZHWaveTests" */;
+			buildPhases = (
+				3935EB631FA74ABE0009B52D /* Sources */,
+				3935EB641FA74ABE0009B52D /* Frameworks */,
+				3935EB651FA74ABE0009B52D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3935EB691FA74ABE0009B52D /* PBXTargetDependency */,
+			);
+			name = ZHWaveTests;
+			productName = ZHWaveTests;
+			productReference = 3935EB671FA74ABE0009B52D /* ZHWaveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3935EB711FA74ABE0009B52D /* ZHWaveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3935EB811FA74ABF0009B52D /* Build configuration list for PBXNativeTarget "ZHWaveUITests" */;
+			buildPhases = (
+				3935EB6E1FA74ABE0009B52D /* Sources */,
+				3935EB6F1FA74ABE0009B52D /* Frameworks */,
+				3935EB701FA74ABE0009B52D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3935EB741FA74ABF0009B52D /* PBXTargetDependency */,
+			);
+			name = ZHWaveUITests;
+			productName = ZHWaveUITests;
+			productReference = 3935EB721FA74ABF0009B52D /* ZHWaveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3935EB471FA74ABE0009B52D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = gzh;
+				TargetAttributes = {
+					3935EB4E1FA74ABE0009B52D = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					3935EB661FA74ABE0009B52D = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3935EB4E1FA74ABE0009B52D;
+					};
+					3935EB711FA74ABE0009B52D = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3935EB4E1FA74ABE0009B52D;
+					};
+				};
+			};
+			buildConfigurationList = 3935EB4A1FA74ABE0009B52D /* Build configuration list for PBXProject "ZHWave" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3935EB461FA74ABE0009B52D;
+			productRefGroup = 3935EB501FA74ABE0009B52D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3935EB4E1FA74ABE0009B52D /* ZHWave */,
+				3935EB661FA74ABE0009B52D /* ZHWaveTests */,
+				3935EB711FA74ABE0009B52D /* ZHWaveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3935EB4D1FA74ABE0009B52D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3935EB5F1FA74ABE0009B52D /* LaunchScreen.storyboard in Resources */,
+				3935EB5C1FA74ABE0009B52D /* Assets.xcassets in Resources */,
+				3935EB5A1FA74ABE0009B52D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3935EB651FA74ABE0009B52D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3935EB701FA74ABE0009B52D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3935EB4B1FA74ABE0009B52D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3935EB8A1FA74B2E0009B52D /* ZHWave.m in Sources */,
+				3935EB571FA74ABE0009B52D /* ViewController.m in Sources */,
+				3935EB621FA74ABE0009B52D /* main.m in Sources */,
+				3935EB541FA74ABE0009B52D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3935EB631FA74ABE0009B52D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3935EB6C1FA74ABE0009B52D /* ZHWaveTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3935EB6E1FA74ABE0009B52D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3935EB771FA74ABF0009B52D /* ZHWaveUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3935EB691FA74ABE0009B52D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3935EB4E1FA74ABE0009B52D /* ZHWave */;
+			targetProxy = 3935EB681FA74ABE0009B52D /* PBXContainerItemProxy */;
+		};
+		3935EB741FA74ABF0009B52D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3935EB4E1FA74ABE0009B52D /* ZHWave */;
+			targetProxy = 3935EB731FA74ABF0009B52D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3935EB581FA74ABE0009B52D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3935EB591FA74ABE0009B52D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3935EB5D1FA74ABE0009B52D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3935EB5E1FA74ABE0009B52D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3935EB791FA74ABF0009B52D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3935EB7A1FA74ABF0009B52D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3935EB7C1FA74ABF0009B52D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZHWave/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = skysama.ZHWave;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3935EB7D1FA74ABF0009B52D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZHWave/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = skysama.ZHWave;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3935EB7F1FA74ABF0009B52D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZHWaveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = skysama.ZHWaveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZHWave.app/ZHWave";
+			};
+			name = Debug;
+		};
+		3935EB801FA74ABF0009B52D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZHWaveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = skysama.ZHWaveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZHWave.app/ZHWave";
+			};
+			name = Release;
+		};
+		3935EB821FA74ABF0009B52D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZHWaveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = skysama.ZHWaveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZHWave;
+			};
+			name = Debug;
+		};
+		3935EB831FA74ABF0009B52D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZHWaveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = skysama.ZHWaveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZHWave;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3935EB4A1FA74ABE0009B52D /* Build configuration list for PBXProject "ZHWave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3935EB791FA74ABF0009B52D /* Debug */,
+				3935EB7A1FA74ABF0009B52D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3935EB7B1FA74ABF0009B52D /* Build configuration list for PBXNativeTarget "ZHWave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3935EB7C1FA74ABF0009B52D /* Debug */,
+				3935EB7D1FA74ABF0009B52D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3935EB7E1FA74ABF0009B52D /* Build configuration list for PBXNativeTarget "ZHWaveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3935EB7F1FA74ABF0009B52D /* Debug */,
+				3935EB801FA74ABF0009B52D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3935EB811FA74ABF0009B52D /* Build configuration list for PBXNativeTarget "ZHWaveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3935EB821FA74ABF0009B52D /* Debug */,
+				3935EB831FA74ABF0009B52D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3935EB471FA74ABE0009B52D /* Project object */;
+}
